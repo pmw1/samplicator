@@ -13,5 +13,6 @@ sudo docker run \
 	--name="samplicator" \
 	--network="docker-network" \
 	--ip="10.0.10.2" \
-	--entrypoint="/bin/bash" \
 	pmw1/samplicator
+
+samplicateCmd="samplicate"
